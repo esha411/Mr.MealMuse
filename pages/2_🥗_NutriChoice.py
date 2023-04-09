@@ -6,6 +6,11 @@ import warnings
 import time
 import random
 
+import nltk
+from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords')
+
 warnings.filterwarnings('ignore')
 
 df = pd.read_csv('dataset.csv')
