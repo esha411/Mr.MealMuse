@@ -2,8 +2,6 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import numpy as np
-from sklearn.neighbors import NearestNeighbors
-from core_code import Recommender
 import warnings
 import time
 import seaborn as sns
