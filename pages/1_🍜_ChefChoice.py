@@ -2,7 +2,6 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 import numpy as np
-import sklearn
 from sklearn.neighbors import NearestNeighbors
 from core_code import Recommender
 import warnings
