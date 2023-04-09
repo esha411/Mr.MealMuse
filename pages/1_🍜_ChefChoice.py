@@ -1,13 +1,10 @@
 import streamlit as st
-import test
 from PIL import Image
 import pandas as pd
 import numpy as np
 import sklearn
 from sklearn.neighbors import NearestNeighbors
 from core_code import Recommender
-import pandas as pd 
-import numpy as np
 import warnings
 import time
 import seaborn as sns
@@ -15,7 +12,7 @@ import matplotlib.pyplot as plt
 import random
 import nltk
 from nltk.corpus import stopwords
-import nltk
+
 
 st.set_page_config(
     page_title="ChefChoice",
