@@ -107,7 +107,7 @@ class Profile:
 
 
     
-image = Image.open("F:\MLH\ChefChoice.png").resize((700, 300))
+image = Image.open("ChefChoice.png").resize((700, 300))
 st.image(image)  
 st.markdown(
         "##### ChefChoice: An app that suggests meal recipes and combinations that cater to your dietary preferences, while also allowing you to mix and match different cuisines and courses."
