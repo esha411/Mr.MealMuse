@@ -1,17 +1,9 @@
 import streamlit as st
-import test
 from PIL import Image
 import pandas as pd
 import numpy as np
-import sklearn
-from sklearn.neighbors import NearestNeighbors
-from core_code import Recommender
-import pandas as pd 
-import numpy as np
 import warnings
 import time
-import seaborn as sns
-import matplotlib.pyplot as plt
 import random
 import nltk
 from nltk.corpus import stopwords
@@ -112,7 +104,7 @@ class Profile:
         return ans
  
 
-image = Image.open("F:\MLH\choice2.png").resize((700, 300))
+image = Image.open("choice2.png").resize((700, 300))
 st.image(image)  
 st.markdown(
         "##### NutriChoice : A food recommendation app that helps you make nutritious choices by suggesting meals based on your dietary needs and preferences."
